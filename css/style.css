@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  margin: 0;
+  padding: 1em;
+  background-color: slateblue;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-title {
+  font-size: 2em;
+}
+
+nav {
+  margin: auto 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  height: 100%;
+}
+
+.welcome {
+  height: 100%;
+  background-color: lavender;
+  text-align: center;
+  padding: 300px 0;
+}
+
+.welcome h1 {
+  font-size: 4em;
+  color: slateblue;
+}
+
+footer {
+  background-color: slateblue;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
